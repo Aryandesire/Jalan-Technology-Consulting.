@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My Program</h2>
+
+<p id="demo"></p>
+<script>
+const l =[2, 1, 5, 3, 11, 7];
+l.sort(function(a, b){return a - b});
+let text = "";
+for (let i = 0; i < l.length/2; i++) {
+  text += l[i]+" ";
+  text += l[l.length-1-i]+" ";
+  if(l.length%2)
+  {
+  text += l[l.length%2];
+  }
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
