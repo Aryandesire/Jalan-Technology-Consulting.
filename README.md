@@ -2,7 +2,7 @@
 
 # Hi, I am Ajeet kumar! 👋
 
-###Ques-Write a function shuffle(arr)that takes input an array of numbers and returns an array by ordering the numbers in following fashion:
+###  Ques-Write a function shuffle(arr)that takes input an array of numbers and returns an array by ordering the numbers in following fashion:
 
 a1 <= a2 >= a3 <= a4 >= ....
 
